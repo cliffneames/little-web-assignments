@@ -47,12 +47,12 @@ table {
 	border-spacing: 0;
 }
 
-h1{
-  font-weight: bold;
-  font-size: 1.6em;
-  font-family: monospace;
-  background-color: pink;
-  text-align: center;
+.container{
+  background-color: gray;
   max-width: 600px;
   margin: 0 auto 0 auto;
+}
+
+h1{
+  border: solid 1px red;
 }
