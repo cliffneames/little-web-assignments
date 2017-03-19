@@ -50,14 +50,18 @@ table {
 #heading{
   font-size: 7.5em;
   font-family: arial, sans-serif;
-  text-align: center;
   font-weight: 600;
+	margin-top: -25px
 }
 
 #red-sign{
   background-color: red;
   border-radius: 10%;
   color: white;
+	padding: 0 3px;
+}
+#date{
+	padding: 10px 0;
 }
 
 body{
@@ -72,18 +76,24 @@ h2{
   font-size: 2em;
   font-weight: bold;
   line-height: 2;
-  font-family: arial, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 p{
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto 0 auto;
   text-align: left;
   margin-top: 10px;
+	font-size: 1.5em;
+	padding: 10px 0;
+	line-height: 1.4em;
+	padding-bottom: 20px;
 }
 
 .blue-sig{
   color: blue;
   font-weight: bold;
+	font-size: .9em;
   font-family: arial, sans-serif;
+	padding: 10px 0;
 }
