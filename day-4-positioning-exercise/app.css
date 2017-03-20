@@ -48,7 +48,6 @@ table {
 }
 
 #main-container{
-  height: 700px;
   width: 600px;
   margin: 0 auto;
   border-radius: 2%;
@@ -66,12 +65,13 @@ h1{
 	margin: 0 auto;
 }
 
+
 #circle{
 	background-color: rgb(210, 210, 210);
-  border-radius: 50%;
-  width: 120px;
-	height: 120px;
-  position: absolute;
+  border-radius: 100%;
+  width: 130px;
+	height: 130px;
+	position: absolute;
 	right: -30px;
 }
 
@@ -81,6 +81,7 @@ h2{
   font-family: sans-serif;
   font-weight: bold;
 	padding-top: 80px;
+	padding-bottom: 20px;
 	width: 70%;
 	margin: 0 auto;
 }
@@ -89,7 +90,6 @@ ul{
 	color: rgb(190, 190, 190);
 	list-style: square;
 	margin: 0 auto;
-	text-decoration: underline;
 	line-height: 2em;
 	font-size: 2em;
 	font-family: sans-serif;
@@ -102,14 +102,20 @@ ul{
 {
 	color: rgb(63, 150, 200);
 	line-height: 1.5em;
+	border-bottom: 2px solid rgb(190, 190, 190);
+	padding-bottom: 5px;
 }
 
 #circle-item{
 	color: white;
-	margin: 0 auto;
-	font-size: 3em;
+	font-size: 4em;
 	font-family: sans-serif;
-	position: relative;
-	left: 45px;
-	top: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 25%;
+}
+
+#head2{
+	margin-top: 40px;
 }
