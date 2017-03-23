@@ -53,6 +53,7 @@ nav{
   right: 0;
   left: 0;
   z-index: 3;
+	width: 100%;
   background-color: transparent;
   overflow: auto;
   opacity: .5;
@@ -69,13 +70,10 @@ nav{
 
 .list-item{
   font-family: sans-serif;
-  line-height: 2.5em;
   text-align: center;
   margin: 5px 10px 0px 10px;
   color: white;
   float: right;
-  width: 5%;
-  height: 40px;
 }
 
 #hero{
@@ -125,7 +123,7 @@ nav{
   padding-top: 100px;
 }
 
-.projects-row{
+.projects{
 	text-align: center;
   margin: 0 auto;
   width: 70%;
@@ -166,21 +164,49 @@ nav{
 }
 
 #story-details{
-  height: 200px;
+  height: 350px;
+	width: 40%;
   border: solid 1px yellow;
 }
 
 .thing-i-do {
   float: left;
   height: 100px;
-  width: 25%;
-  background-color: pink;
+	margin: 0 auto;
+  width: 24%;
 }
 
 #what-i-do{
   background-color: gray;
-  width: 80%;
-  overflow: auto;
-  padding: 50px 0px;
-  margin: 0 auto;
+  width: 70%;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+@media (max-width: 1130px){
+	.project {
+	  width: 48%;
+	}
+}
+
+@media (max-width: 800px){
+	.project {
+	  width: 98%;
+	}
+}
+
+@media (max-width: 1080px){
+	.thing-i-do {
+	  float: left;
+	  width: 48%;
+	  border: 1px solid pink;
+	}
+}
+
+@media (max-width: 600px){
+	.thing-i-do {
+	  float: none;
+	  width: 23%;
+	  border: 1px solid pink;
+	}
 }
